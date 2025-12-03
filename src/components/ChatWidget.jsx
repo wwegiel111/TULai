@@ -157,9 +157,11 @@ const ChatWidget = () => {
                     </form>
                 </div>
             )}
-            <button className="chat-toggle-btn" onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? '✕' : '💬'}
-            </button>
+            {!isOpen && (
+                <button className="chat-toggle-btn" onClick={() => setIsOpen(true)}>
+                    💬
+                </button>
+            )}
         </div>
     )
 }

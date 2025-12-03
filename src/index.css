@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,4 +38,10 @@ body {
   background-size: cover;
   background-position: center;
   z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    background-image: url('/assets/wikamp_bg_mobile.jpg');
+  }
 }
