@@ -379,13 +379,8 @@
     }
 
     .chat-toggle-btn {
-        /* Hide toggle button when chat is open on mobile if you want, 
-       but keeping it visible (maybe changing icon to X) is also fine. 
-       However, since the window covers everything, the toggle button 
-       might be covered or needs to be hidden. 
-       Actually, the close button in the header is sufficient.
-    */
-        display: none;
+        /* Ensure button is visible on mobile */
+        display: flex;
     }
 
     /* When chat is open, we hide the toggle button via the .chat-widget-container logic 
