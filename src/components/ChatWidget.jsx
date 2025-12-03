@@ -4,7 +4,8 @@ import './ChatWidget.css'
 const PREDEFINED_PROMPTS = [
     { id: 1, text: "Where can I find the schedule?", answer: "The schedule is available in the https://lodz.celcat.cloud/." },
     { id: 2, text: "Where is the library?", answer: "The library is located in Building B, 2nd floor." },
-    { id: 3, text: "Contact support", answer: "You can contact support at support@wikamp.edu.pl." }
+    { id: 3, text: "Contact support", answer: "You can contact support at support@wikamp.edu.pl." },
+    { id: 4, text: "How to pass the Civic Knowledge and Engagement course?", answer: "You can donate blood at a blood donation centre, join a research club, become a member of the TUL student council, or work for the benefit of the Lodz University of Technology. You can find more information on this topic in the Civic Knowledge and Engagement course section." }
 ]
 
 const FAQS = [
